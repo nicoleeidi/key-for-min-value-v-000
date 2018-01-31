@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   end
   i=0
   while i<arrayofvalues.length
-    if arayofvalues[i] > arrayofvalues[i+1]
+    if arrayofvalues[i] > arrayofvalues[i+1]
       value= arrayofvalues[i]
       array.delete(value)
     elsif arrayofvalues[i] < arrayofvalues[i+1]
