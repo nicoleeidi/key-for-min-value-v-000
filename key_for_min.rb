@@ -21,8 +21,8 @@ def key_for_min_value(name_hash)
     i+=1
     binding.pry
   end
-  arrayofvalues.join
-  return name_hash.key(value)
+  winner= arrayofvalues.join.to_i
+  return name_hash.key(winner)
 
 
 end
