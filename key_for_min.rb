@@ -19,7 +19,7 @@ def key_for_min_value(name_hash)
       #arrayofvalues[i], arrayofvalues[i+1] = arrayofvalues[i+1], arrayofvalues[i]
 
     i+=1
-    binding.pry
+
   end
   winner= arrayofvalues.join.to_i
   return name_hash.key(winner)
